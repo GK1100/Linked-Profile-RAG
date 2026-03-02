@@ -793,8 +793,8 @@ class LinkedInRAGApp:
         self.embeddings = None
         
         # LinkedIn scraping configuration
-        self.linkedin_email = "gaurav30.kumavat@gmail.com"
-        self.linkedin_password = "@G@ur@v10"
+        self.linkedin_email = "YOUR_LINKEDIN_EMAIL"
+        self.linkedin_password = "YOUR_LINKEDIN_PASSWORD"
         
     def _load_profiles(self) -> List[Dict]:
         """Load the LinkedIn profiles from JSON file"""
@@ -1621,3 +1621,4 @@ if __name__ == '__main__':
     print("🌐 Open your browser and go to: http://localhost:5000")
     
     app.run(debug=True, host='0.0.0.0', port=5000)
+
